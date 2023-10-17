@@ -1,0 +1,13 @@
+* 1st understand how many rows you have to create, and create an outer loop for rows. 
+
+* Now check what is happening inside each row. 
+
+* see the given values: "height of pattern", "occurrences of the symbol in a row" with respect to the "row number", see the "column value", and establish a formula using your common sense by seeing the pattern in these given values. 
+
+---> Now once you have the formula that you have to apply in the inner loop as a condition, the question is solved. 
+
+
+# Note: 
+---> We don't care about the spaces in each row once the last symbol of that row is printed. 
+
+
