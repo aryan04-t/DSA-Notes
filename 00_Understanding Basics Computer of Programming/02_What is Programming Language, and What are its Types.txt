@@ -1,0 +1,119 @@
+# What is a Programming Language:
+
+
+---> A programming language is a set of instructions and syntax used to create software programs. 
+
+---> In even simpler terms we can say that, a programming language is a computer language that is used by programmers (developers) to communicate with computers. 
+
+---> Programming language is mainly used to develop desktop applications, websites, and mobile applications. 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+# Types of Programming Languages: 
+
+
+
+1. Low-level programming language: 
+
+---> Low-level language is machine-dependent (0s and 1s) programming language. 
+---> The processor runs low- level programs directly without the need of a compiler or interpreter, that's why programs written in low-level language can be run very fast. 
+
+@ Low level programming language can be further divided into 2 parts: 
+
+    1.1 Machine Language: 
+        ---> Machine language is a type of low-level programming language. 
+        ---> It is also known as "machine code" or "object code". 
+        ---> Machine language is normally displayed in binary (0s and 1s) or hexadecimal form. 
+        ---> It does not require a translator to convert the programs because computers directly understand the machine language programs. 
+
+    1.2 Assembly Language: 
+        ---> Assembly language (ASM) is also a type of low-level programming language that is designed for specific processors. 
+        ---> It uses an assembler to convert the assembly language to machine language. 
+        ---> It represents the set of instructions in a symbolic and human-understandable form. 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+2. High-level programming language:
+
+---> High-level programming languages offer a more abstract and user-friendly way to write code, making them suitable for a wide range of applications, from web development and mobile app development to scientific research and data analysis. 
+---> This programming language requires a compiler or interpreter to translate the program into machine language (execute the program). 
+---> Some examples of High level programming language are: Python, Java, JavaScript, Swift, C#, Ruby, PHP, Perl, FORTRAN, Basic, Pascal, etc. 
+
+@ 2 Major Variants of High-level Programming Language are: 
+
+    2.1 Procedural Oriented programming language: 
+        ---> Procedural Oriented Programming (POP) language is derived from structured programming and based upon the procedure call concept. 
+        ---> It divides a program into small procedures called routines or functions. 
+        ---> POP follows top-down approach. 
+        ---> Example: FORTRAN, Basic, Pascal, etc.
+
+    2.2 Object Oriented Programming language: 
+        ---> Object-Oriented Programming (OOP) languages uses object oriented approach. 
+        ---> OOP languages organize code into objects, which are instances of classes. 
+        ---> Object oriented programming approach is also referred sometimes as OOPS (Object Oriented Programming System). 
+        ---> OOP language promote encapsulation, inheritance, and polymorphism as key concepts. 
+        ---> OOP follows bottom-up approach. 
+        ---> Example: Java, Python, JavaScript, C#, etc. 
+
+
+    @ There are also other variants of High Level Programming / Scripting / Markup / Query Languages like: Functional Programming Languages (Ex:  Haskell, Lisp, Clojure), Scripting Languages (Ex: JavaScript, Ruby, Python), Markup Languages (Ex: HTML, XML, LaTeX), Query Languages (Ex: SQL), etc. 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+3. Middle-level programming language: 
+
+---> Middle-level programming language lies between the low-level programming language and high-level programming language. 
+---> A middle-level programming language's advantages are that it supports the features of high-level programming, it is a user-friendly language, and closely related to machine language and human language. 
+---> Examples of middel-level programming language are: C and C++ 
+---> Many people refer refer C and C++ as High Level Language and its not totally wrong, they've high level features so they can be called High Level Languages, but if you see overall scenario then C and C++ also have low-level features, and due to this reason categorizing C and C++ as "Middle Level Language" is much more appropriate and accurate answer.
+
+* C is a procedural oriented programming language. 
+* C++ is a object oriented programming language. 
+
+@ Both C and C++ are known as Middle Level Programming Language because both provide a fine balance between low-level control over hardware and high-level abstractions for software development. 
+
+    $ C: 
+    * Low-Level Features of C are: 
+    ---> C provides low-level features such as direct memory manipulation through pointers, bitwise operations, and manual memory management using functions like malloc and free.
+
+    * High-Level Features of C are: 
+    ---> High-level abstractions like functions, data structures (e.g.: structs, enums, etc), and a standard library with I/O functions. 
+
+    $ C++: 
+    * Low-Level Features of C++ are:
+    ---> Like C, C++ offers low-level features such as direct memory manipulation through pointers, and bitwise operations, and manual memory management using keywords like new and delete. 
+
+    * High-Level features of C++ are: 
+    ---> C++ extends C with additional high-level abstractions, most notably, object-oriented programming (OOP) features like classes and inheritance. 
+    ---> C++ also includes features like templates for generic programming, and standard template library, which are considered high-level. 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+
+# References Cited: 
+
+
+* JavaTPoint (Programming Language):
+https://www.javatpoint.com/programming-language 
+
+
+* GeeksForGeeks (Introduction to Programming Languages):
+https://www.geeksforgeeks.org/introduction-to-programming-languages/ 
+
+
+* GeeksForGeeks (Difference between High Level and Low level languages): 
+https://www.geeksforgeeks.org/difference-between-high-level-and-low-level-languages/ 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+
+
