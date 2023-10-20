@@ -1,0 +1,66 @@
+# Difference Between Programming, Scripting, and Markup Languages: 
+
+
+* When it comes to making a website or app, coding involves basically three types of languages, i.e the programming language, Scripting Language and Markup Language. 
+
+* Let's discuss in detail about the difference between these three main categories or pillars of a website or an app. 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+# Programming language: 
+
+---> In simple terms, programming languages are set of instructions or code which tells a computer what it needs to do. 
+---> So basically, we provide a logic or instruction to the computer to perform some task to get the desired output from it. 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+# Scripting Language: 
+
+---> Scripting languages are all about giving the script to perform some certain task. 
+---> Scripting languags are basically the subcategory of programming languages, scripting languages are used to give guidance to another program or we can say to control another program, so it also involves instructions. 
+---> In simpler terms, we can say that "Scripting Language" or "Script Language" is a programming language that is used to manipulate, customize, and automate the facilities of an existing system. 
+---> Javascript, PHP, Perl, Python, VBScript these all are few examples of scripting language. 
+---> Scripting languages are usually interpreted at runtime rather than compiled. 
+---> Scripting languages need to be interpreted instead of compiled. 
+
+@ Since scripting languages aren't designed to write complete programs, they are slower and more energy intensive than programming languages. 
+@ There is no scope of compiler in scripting languages, there is no need to compile scripting languages it only needs to be interpreted. 
+@ Scripting languages are most widely used to create a website. 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+# Markup Languages: 
+
+---> Markup languages are completely different from programming languages and scripting languages. 
+---> Markup languages prepare a structure for the data or prepare the look or design of a page. 
+---> So, basically "Markup Languages" involve formatting data or it controls the presentation of data. 
+---> HTML, XML, etc. These are "Markup Languages" which are aka presentational languages and these languages doesn’t include any kind of logic or algorithm, that's why understand this thing that "Markup Languages" are not "Programming Languages". 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+# Conclusion: 
+
+* So we can say that all the scripting languages are programming languages but all the programming languages are not scripting languages. 
+* C cannot be called a scripting language, it is just a programming language but we can call JavaScript or Php, programming or scripting languages.
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+
+# References Cited: 
+
+
+* GeeksForGeeks (Difference Between Programming, Scripting, and Markup Languages): 
+https://www.geeksforgeeks.org/difference-between-programming-scripting-and-markup-languages/ 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+
+
