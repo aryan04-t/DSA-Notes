@@ -1,0 +1,142 @@
+# Different Number Systems: 
+
+
+1. Decimal Number System:
+   - Base: 10
+   - Symbols: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+   - The decimal system is the most commonly used number system in everyday life. It's a base-10 system, which means it has 10 possible digits. Each digit's value is multiplied by a power of 10, and the positions in the number represent powers of 10.
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+2. Binary Number System:
+   - Base: 2
+   - Symbols: 0, 1
+   - The binary system is used in computing because digital electronic devices have two distinct states: "off" (0) and "on" (1). It is a base-2 system, making it efficient for representing and processing information in digital circuits.
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+3. Octal Number System:
+   - Base: 8
+   - Symbols: 0, 1, 2, 3, 4, 5, 6, 7
+   - The octal system is less common today but has been used in computing history. It's a base-8 system, and each digit represents a power of 8.
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+4. Hexadecimal Number System:
+   - Base: 16
+   - Symbols: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+   - The hexadecimal system is widely used in computing and programming. It's a base-16 system, and it's convenient for representing binary data in a more human-readable format. A represents 10, B represents 11, C represents 12, D represents 13, E represents 14, and F represents 15.
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+
+# Conversions from one number system to another: 
+
+
+1. Decimal to Binary:
+   - To convert a decimal number to binary, you can repeatedly divide the decimal number by 2 and keep track of the remainders. The binary representation will be the sequence of remainders read in reverse order.
+   - Example: Convert 25 (decimal) to binary.
+     - 25 ÷ 2 = 12 with a remainder of 1
+     - 12 ÷ 2 = 6 with a remainder of 0
+     - 6 ÷ 2 = 3 with a remainder of 0
+     - 3 ÷ 2 = 1 with a remainder of 1
+     - 1 ÷ 2 = 0 with a remainder of 1
+     - Reading the remainders in reverse order, you get 11001, so 25 (decimal) is 11001 in binary.
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+2. Decimal to Octal and Hexadecimal:
+   - Converting from decimal to octal or hexadecimal is similar to binary. You divide the decimal number by 8 (for octal) or 16 (for hexadecimal) and keep track of the remainders.
+   - For hexadecimal, you will also need to replace remainders 10, 11, 12, 13, 14, and 15 with the corresponding letters A, B, C, D, E, and F.
+   - Example: Convert 60 (decimal) to octal and hexadecimal.
+     --> For octal: 60 ÷ 8 = 7 with a remainder of 4. So, 60 (decimal) is 74 in octal.
+     --> For hexadecimal: 60 ÷ 16 = 3 with a remainder of 12. 12 is C in hexadecimal. So, 60 (decimal) is 3C in hexadecimal.
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+3. Binary to Decimal: 
+
+   - To convert a binary number to decimal, you multiply each digit by the corresponding power of 2 and then sum them up.
+   - Example: Convert 1101 (binary) to decimal.
+     --> 1 * 2^3 + 1 * 2^2 + 0 * 2^1 + 1 * 2^0 = 8 + 4 + 0 + 1 = 13 (decimal).
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+4. Binary to Octal and Hexadecimal:
+
+   - To convert binary to octal or hexadecimal, first group the binary digits into sets of three (for octal) or four (for hexadecimal) from right to left and convert each group.
+   - Example Binary Number is 110110101
+
+   @ Convert binary to octal: 
+     - Group the binary digits into sets of three: 110 110 101
+       - 110 in binary is 6 in octal.
+       - 110 in binary is 6 in octal.
+       - 101 in binary is 5 in octal.
+     --> So, the correct octal representation of binary no. 110110101 is 656.
+
+   @ Convert binary to hexadecimal:
+     - Group the binary digits into sets of four from the right-hand side: 1 1011 0101
+       - 0001 in binary is 1 in hexadecimal.
+       - 1011 in binary is B in hexadecimal.
+       - 0101 in binary is 5 in hexadecimal.
+     --> The correct hexadecimal representation is 1B5.
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+5. Octal and Hexadecimal to Decimal:
+
+   - Converting from octal or hexadecimal to decimal is straightforward. Each digit is multiplied by the corresponding power of 8 (for octal) or 16 (for hexadecimal), and the results are summed up.
+
+   - Example: Convert 47 (octal) to decimal.
+     --> 4 * 8^1 + 7 * 8^0 = 32 + 7 = 39 (decimal).
+
+   - Example: Convert 3C (hexadecimal) to decimal.
+     --> 3 * 16^1 + 12 * 16^0 = 48 + 12 = 60 (decimal).
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+6. Octal and Hexadecimal to Binary: 
+
+   @ Octal to Binary: 
+     - Convert each octal digit to its 3-digit binary representation.
+       - Example: Convert 326 (octal) to binary.
+       - 3 in octal is 011 in binary.
+       - 2 in octal is 010 in binary.
+       - 6 in octal is 110 in binary.
+       - Combine the binary representations: 011010110.
+
+   @ Hexadecimal to Binary: 
+     - Convert each hexadecimal digit to its 4-digit binary representation.
+       - Example: Convert 1B5 (hexadecimal) to binary.
+       - 1 in hexadecimal is 0001 in binary.
+       - B in hexadecimal is 1011 in binary.
+       - 5 in hexadecimal is 0101 in binary.
+       - Combine the binary representations: 000110110101.
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+# References Cited: 
+
+
+* ChatGPT: 
+https://chat.openai.com/ 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+
