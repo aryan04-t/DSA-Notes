@@ -1,0 +1,353 @@
+# What is Memory? 
+
+- Computer Memory is the hardware part of the system which stores data, information, and instructions. 
+
+- It is a device where data is stored, data is processed and instructions required for data processing are also stored. 
+
+- Computer memory stores both types of data that is, input and output.
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+# Types of Computer Memory: 
+
+
+* Cache Memory
+* Primary Memory (aka RAM [Random Access Memory], Main Memory) 
+* Secondary Memory (aka Auxiliary Memory, External Memory) 
+
+    @ Cache Memory 
+      - Cache memory is the fastest among Cache, Primary and Secondary Memory.
+      - Cache memory helps in fastening the speed of CPU, it is used to store the data that is frequently required by the CPU.
+      - Whenever the system gets off, data present in the cache memory gets lost (Means cache memory is also volatile). 
+
+    @ Primary Memory: 
+      - Primary memory is called as main memory of the System. 
+      - During computer operations, it stores data, programs, and instructions. 
+      - It is commonly called Semiconductor Memory or Volatile Memory. 
+      - Primary memory (RAM) is slower than cache memory but still much faster than secondary memory. 
+      - Primary memory is directly accessible by the CPU. 
+
+    @ Secondary Memory: 
+      - Secondary memory is used to store a heavy amount of data or information. 
+      - It is non-volatile in nature, the data or information stored in secondary memory is permanent, data is only deleted when user wants to delete it. 
+      - Secondary memory (e.g., hard drives, SSDs) is the slowest among the three types of memory.
+      - Secondary memory isn’t directly accessible by the CPU, CPU accesses secondary memory either via operating system or via storage controller. 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+# Volatile Memory Type Meaning (RAM and Cache memory are volatile memories): 
+
+- Volatile memory is a type of computer memory that loses its stored data when the power is turned off or interrupted.
+- It is typically used for temporary data storage and is intended for short-term use, such as storing data actively used by running programs.
+- Because RAM and Cache memory are volatile memories, that's why when you shut down or restart your computer, the data in RAM and cache is cleared.
+
+
+# Non-Volatile Memory Type Meaning (Secondary memory is a non-volatile memory): 
+
+- Non-volatile memory, on the other hand, retains its data even when power is removed. 
+- It is used for long-term storage of data and is designed to keep data intact even when the device is powered off. 
+- Examples of non-volatile memory include hard drives, solid-state drives (SSDs), flash memory, optical discs (e.g., DVDs or Blu-ray discs), and certain types of computer firmware like BIOS (Basic Input/Output System) / UEFI (Unified Extensible Firmware Interface). 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+# Types of Various Units of Memory (As Per Logic): 
+
+
+* Bit (b):
+  - 1 bit can store either 0 or 1 
+  - Bit is the smallest unit of memory. 
+  - Bit simply refers to the binary digit. 
+
+
+* Crumb (Crumb is not typically associated with a specific letter or symbol): 
+  - 1 Crumb = 2 bits. 
+  - A group of two bits or a quarter byte was called a crumb, and it was often used in early 8-bit computing. 
+  - It is now defunct. 
+  - Nowadays 2 bits are referred just as 2 bits or a pair of bits. 
+
+
+* Nibble (Nibble is not typically associated with a specific letter or symbol): 
+  - 1 Nibble = 4 bits 
+  - Nibble is just a greater version of Bit. 
+  - It is a combination of 4 bits of binary digits or half of an Octet. 
+  - A nibble can be represented by a single hexadecimal digit. 
+
+
+* Byte (B): 
+  - 1 Byte = 8 bits 
+  - In computer systems, a unit of data that is eight binary digits long is known as a byte. 
+  - A Byte is abbreviated with a big “B” whereas a bit is abbreviated with a small “b”. 
+  - Historically, the byte was the number of bits used to encode a single character of text in a computer, and for this reason it is the smallest addressable unit of memory in many computer architectures. 
+
+
+* Kilobyte (KB): 
+  - 1 KB = 1,024 Bytes [or] 2^10 Bytes 
+
+
+* Megabyte (MB): 
+  - 1 MB = 1024 KB [OR] 2^10 KB = 2^20 Bytes 
+
+
+* Gigabyte (GB): 
+  - 1 GB = 1024 MB [OR] 2^10 MB = 2^20 KB = 2^30 Bytes 
+
+
+* Terabyte (TB): 
+  - 1 TB = 1024 GB [OR] 2^10 GB = 2^20 MB = 2^30 KB = 2^40 Bytes 
+
+
+* Petabyte (PB): 
+  - 1 PB = 1024 TB [OR] 2^10 TB = 2^20 GB = 2^30 MB = 2^40 KB = 2^50 Bytes 
+
+
+* Exabyte (EB):
+  - 1 EB = 1024 PB [OR] 2^10 PB = 2^20 TB = 2^30 GB = 2^40 MB = 2^50 KB = 2^60 Bytes
+
+
+* Zettabyte (ZB): 
+  - 1 ZB = 1024 EB [OR] 2^10 EB = 2^20 PB = 2^30 TB = 2^40 GB = 2^50 MB = 2^60 KB = 2^70 Bytes
+
+
+* Yottabyte (YB): 
+  - 1 YB = 1024 ZB [OR] 2^10 ZB = 2^20 EB = 2^30 PB = 2^40 TB = 2^50 GB = 2^60 MB = 2^70 KB = 2^80 Bytes
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+
+# Does 1 KB = 1000 Bytes [OR] 1024 Bytes? Does 1 MB = 1000 KB [OR] 1024 KB?? Does 1 GB = 1000 MB [OR] 1024 MB??? and so on... 
+
+
+---> There is a lot of confusion that whether 1 KB = 1000 Bytes or 1024 Bytes, and so on. 
+---> let's understand what happened in the history which created this confusion, and then we'll easily get to understand that whether 1 KB = 1000 Bytes or 1024 Bytes. 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+# History and Inception Point of Confusion: 
+
+
+In 1971, the first 8-inch floppy disk was invented by IBM, which had a storage capacity of about 80 kilobytes. 
+By 1986, IBM introduced the 3-1/2 inch floppy disk with 1.44 megabytes of storage space. 
+
+As the industry started to manufacture storage disks which can be sold commerically, and layman people can buy them and use them.
+
+The marketing people understood, that layman people who're using the floppy disk are not familiar with binary number system. 
+They understood that the layman person is more familiar with metric units and decimal number system, terms like "thousands" and "millions" make more sense to the masses. 
+
+
+Computers work on the binary number system. 
+The most fundamental unit of a computer is a "bit", a bit  can either store a 0 or a 1. 
+Computer memory is typically organized in binary units such as bytes (8 bits), kilobytes (1024 bytes), megabytes (1024 kilobytes), and so on. 
+The reason for these powers of 2 (e.g., 2^10 for a kilobyte) is due to the binary nature of the computer's architecture. 
+Each unit represents a power of 2, which is convenient for addressing memory locations. 
+
+The term 1 Kilobyte meant 2^10 Bytes or you can say 1 KB = 1024 Bytes, and the term 1 Megabyte meant 2^20 Bytes or you can say 1,048,576 Bytes. 
+
+1 Kilobyte (KB) and 1 Megabyte (MB) was really big storage sizes at the time of mid 1900s. 
+
+But when you want to sell a storage disk of size 1 MB and you market it saying "This disk can store 1 Megabytes of data", then the layman people were not psychologically convinced to buy that storage disk, because they don't understand the binary number system, they don't understand how big the term "Megabyte" is. 
+They're not able to relate that how big is one MegaByte, and even if they tried, they got to see a random number, that 1 Megabyte = 1,048,576 Bytes. The number "1,048,576" was random for a layman person who doesn't understand binary number system, nothing made sense to them in this. 
+
+Whereas if you market the storage disk saying "This disk can store 1 Million Bytes of Data", now the layman person relates to the term "million", because they understand decimal number system and metric system, things are making more sense to them now. 
+
+So, now when you're marketing the disk saying "This disk can store 1 Million Bytes of Data", now the the layman person is more pschologically convinced to buy a storage disk, marketers has successfully converted the "layman user" into a "convinced buyer". 
+
+Due to this naming strategy of marketers, sales of storage disk increased. 
+After seeing that this strategy is increasing the sales, a lot of other marketers also started to market "1 Kilobyte disks having 1 thousand bytes of storage capacity" and "1 Megabyte disks having 1 Million bytes of storage capacity", and the majority of public who don't have idea about fundamentals of computer architecture and binary number system, they got convinced due to this marketing, that 1 Kilobytes = 1000 Bytes.
+The term "Kilo" also means 1000 in metric system. So, for layman user it was relateable and easily digestable that 1 KB = 1000 B.
+Marketers had no problem in marketing things like this with these non-technical wrong terminologies because sales were increasing. 
+
+But the people who had knowledge about binary number system and knew how things work in computers fundamentally, they referred 1 Kilobyte = 1024 Bytes, and from here the confusion whether "1 Kilobytes = 1000 Bytes or 1024 Bytes" started. 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+# Understanding How Big of a Problem this Confusion has Caused: 
+
+As we know now that 1KB was really big storage size at the time of mid 1900s, but referring to 1KB as 1000 B and ignoring 24 Bytes doesn't felt like any problem to anyone because 24 Bytes is a really small chunk of storage, you can ignore it. 
+
+But as time passed, computers and storage disks evolved, we started using storages of capacity "Megabytes" (MB).
+It was getting harder to ignore 24 KB of data and call 1 MB just 1 million bytes (1,000,000) instead of 1,048,576 bytes, but it was not that hard to ignore 24 KB also, people still ignored 24 KB of space.
+But when Gigabyte got started to be used, it became very hard to ignore 24 MB of storage. Now imagine ignoring 24 GB of space when you use 1 TB to be referred as 1000 GB instead of 1024 GB (Because actually 1 TB = 1024 GB), and imagine ignoring 24 TB of storage space, when you're referring 1 Peta Byte (PB) as 1000 TB instead of 1024 TB. 
+
+Since it was hard to ignore such a large amount of data, now tech people started to correct layman users that 1 KB is 1024 Bytes and not 1000 Bytes, 1 MB is 1024 KB and not 1000 KB, and 1 GB is 1024 MB and not 1000 MB, and so on. 
+
+But now it was too late, the layman user now knows that 1 KB is 1,000 Bytes, and not 1,024 Bytes. It is ingrained in them. 
+
+If it was that easy to make layman user understand binary number system, then this confusion would have never arised. 
+Marketers would have simply marketed storage disks as "1 Megabyte" instead of "1 Million Bytes" and the 24 extra KB would have never been ignored and I today I will not be writing this article. 
+
+
+But let's not get carried away. 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+# IEC Correction Arc: 
+
+Problem has became really big and now you cannot teach at such large scale that why 1 KB is not 1000 Bytes, and actually it is 1024 Bytes. 
+
+So, the American organization NIST (National Institute of Standards and Time) and the International Electrotechnical Commission (IEC) tried to resolve this issue by introducing new terms, IEC said to layman users that, if you refer 1 KB as 1000 B then keep refering it as 1000 B, but we cannot neglect 24 B now because at large scale this ignorance is causing problems. So, we will introduce new terms like KibiByte (KiB) which will from now onwards specifically represent 1024 Bytes, and 1 Kilobyte will specifically represent only 1000 Bytes from now onwards. 
+
+Although this effort by IEC was not really that successfull, because the Computer Science Engineers and people who know fundamentally know computers and binary systems, they still refer 1 KB as 1024 bytes, and layman users still refer 1 KB as 1000 Bytes because these terms like KibiByte and MebiByte are not mostly used by Computer Science engineers, and layman users were running away from 1024 Bytes definition of 1 Kilobyte because the don't understand binary number system, that's why layman user don't even care about Kibibyte. That's the reason that terms like "Kibibyte" and "Mebibyte" never really got any strong siginificance. 
+
+And now whenever tech related people who understand computers fundamentally say 1 Kilobyte = 1024 Bytes, the layman user googles and shows them 1 KB = 1000 Bytes. 
+Google shows 1 Kilobyte = 1000 Bytes in conversions because as per IEC's official guidelines nowadays officially 1KB = 1000 B and 1 Kib = 1024 B. 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+# Conclusion: 
+
+It was a huge blunder by marketing people to market 1 KB as 1000 B and 1 MB as 1 Million Bytes, if we see the scenario from this confusion's perspective, this is the conculsion we can come upto.
+But if you see the marketing of 1 KB as 1000 B, and 1 MB as 1 Million bytes from the perspective of sales, then it was a superhit marketing strategy because it made the layman people buy the hard disks. Due to this the layman person explored computers, and they liked the computers.  
+
+
+But whatever the conclusion is, marketing things like this, whatever it was, whether a "technical blunder" or a "marketing masterstroke", deciding this is upto you, it's all about perspectives. 
+
+But here we're today. 
+Today after reading more than 10 articles, and after having a 2 hour long brainstorming session with chatGPT, finally I have understood that whether "1 Kilobyte equals to 1000 Bytes or 1024 Bytes", I have also understood today that why google says "1 Kilobyte = 1000 Bytes", and today is also the day when I understood that why does even Kibibyte exits honestly. 
+
+After understanding all these things today, I am also writing this aritcle today (14th October 2023). 
+
+And I hope that if you've read my article until here then from today onwards you will also not be confused about all the things which I have explained above in this article. 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+P.S.: Honestly as a Computer Science Engineer, I will continue referring 1 Kilobyte as 1024 Bytes (Because that is the correct naming convention as per binary number system), it doesn't matter what norms IEC is using, until all techies understand that 1 KB is 1024 bytes. 
+Referring 1 Kilobytes as 1000 Bytes and 1 Kibibytes as 1024 Bytes will make me feel dumb as Computer Science Engineer because I know that fundamentally computer works on binary system, there is no sense of using metric units with computer memory when you know these facts :) 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+
+# Types of Various Units of Memory (IEC Conversion Standards): 
+
+
+
+* Bit (b): 
+  - 1 Bit can store either 0 or 1
+
+
+* Nibble (Nibble is not typically associated with a specific letter or symbol): 
+  - 1 Nibble = 4 bits 
+
+
+* Byte (B): 
+  - 1 Byte = 8 bits 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+* Kilobyte (KB): 
+  - 1 KB = 1,000 Bytes [or] 10^3 Bytes 
+
+
+* Megabyte (MB): 
+  - 1 MB = 1000 KB [OR] 10^3 KB = 10^6 Bytes 
+
+
+* Gigabyte (GB): 
+  - 1 GB = 1000 MB [OR] 10^3 MB = 10^6 KB = 10^9 Bytes 
+
+
+* Terabyte (TB): 
+  - 1 TB = 1000 GB [OR] 10^3 GB = 10^6 MB = 10^9 KB = 10^12 Bytes 
+
+
+* Petabyte (PB): 
+  - 1 PB = 1000 TB [OR] 10^3 TB = 10^6 GB = 10^9 MB = 10^12 KB = 10^15 Bytes 
+
+
+* Exabyte (EB):
+  - 1 EB = 1000 PB [OR] 10^3 PB = 10^6 TB = 10^9 GB = 10^12 MB = 10^15 KB = 10^18 Bytes
+
+
+* Zettabyte (ZB): 
+  - 1 ZB = 1000 EB [OR] 10^3 EB = 10^6 PB = 10^9 TB = 10^12 GB = 10^15 MB = 10^18 KB = 10^21 Bytes
+
+
+* Yottabyte (YB): 
+  - 1 YB = 1000 ZB [OR] 10^3 ZB = 10^6 EB = 10^9 PB = 10^12 TB = 10^15 GB = 10^18 MB = 10^21 KB = 10^24 Bytes
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+* Kibibyte (KiB): 
+  - 1 KiB = 1,024 Bytes [or] 2^10 Bytes 
+
+
+* Mebibyte (MiB): 
+  - 1 MiB = 1024 KiB [OR] 2^10 KiB = 2^20 Bytes 
+
+
+* Gibibyte (GiB): 
+  - 1 GiB = 1024 MiB [OR] 2^10 MiB = 2^20 KiB = 2^30 Bytes 
+
+
+* Tebibyte (TiB): 
+  - 1 TiB = 1024 GiB [OR] 2^10 GiB = 2^20 MiB = 2^30 KiB = 2^40 Bytes 
+
+
+* Pebibyte (PiB): 
+  - 1 PiB = 1024 TiB [OR] 2^10 TiB = 2^20 GiB = 2^30 MiB = 2^40 KiB = 2^50 Bytes 
+
+
+* Exbibyte (EiB):
+  - 1 EiB = 1024 PiB [OR] 2^10 PiB = 2^20 TiB = 2^30 GiB = 2^40 MiB = 2^50 KiB = 2^60 Bytes
+
+
+* Zebibyte (ZiB): 
+  - 1 ZiB = 1024 EiB [OR] 2^10 EiB = 2^20 PiB = 2^30 TiB = 2^40 GiB = 2^50 MiB = 2^60 KiB = 2^70 Bytes
+
+
+* Yobibyte (YiB): 
+  - 1 YiB = 1024 ZiB [OR] 2^10 ZiB = 2^20 EiB = 2^30 PiB = 2^40 TiB = 2^50 GiB = 2^60 MiB = 2^70 KiB = 2^80 Bytes
+
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+
+# References Cited: 
+
+
+* ChatGPT: 
+https://chat.openai.com/ 
+
+
+* GeeksForGeeks (Understanding file sizes | Bytes, KB, MB, GB, TB, PB, EB, ZB, YB): 
+https://www.geeksforgeeks.org/understanding-file-sizes-bytes-kb-mb-gb-tb-pb-eb-zb-yb/ 
+
+
+* Stanford University (Kilobytes Megabytes Gigabytes Terabytes): 
+https://web.stanford.edu/class/cs101/bits-gigabytes.html 
+
+
+* Wikipedia (Byte): 
+https://en.wikipedia.org/wiki/Byte#Multiple-byte_units 
+
+
+* Wikipedia (Units of information): 
+https://en.wikipedia.org/wiki/Units_of_information
+
+
+* Wikipedia (History of hard disk drives): 
+https://en.wikipedia.org/wiki/History_of_hard_disk_drives 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+
+
