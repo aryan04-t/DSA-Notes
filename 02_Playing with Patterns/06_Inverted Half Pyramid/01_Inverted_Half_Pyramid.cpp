@@ -18,7 +18,7 @@ int main(){
     // Logic for printing "Inverted Half Pyramid": 
     for(int row=0; row < height; row++){
         for(int col=0; col < height-row; col++){
-            cout << "* ";
+            cout << "*";
         }
         cout << endl;
     }
@@ -33,8 +33,8 @@ int main(){
     // My Different Logic for printing "Inverted Half Pyramid": 
 
     for(int row=0; row < height; row++){
-        for(int col=height; col>row; col--){
-            cout << "* ";
+        for(int col=height; col > row; col--){
+            cout << "*";
         }
         cout << endl;
     }
