@@ -18,7 +18,7 @@ int main(){
     // Logic for printing "Half Pyramid": 
     for(int row=0; row < height; row++){
         for(int col=0; col < row+1; col++){
-            cout << "* ";
+            cout << "*";
         }
         cout << endl;
     }

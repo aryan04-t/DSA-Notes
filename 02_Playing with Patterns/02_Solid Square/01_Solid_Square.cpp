@@ -1,6 +1,5 @@
 // Solid Square  
 
-
 #include<iostream> 
 using namespace std;
 

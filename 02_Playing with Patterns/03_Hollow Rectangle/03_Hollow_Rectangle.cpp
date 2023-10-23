@@ -1,6 +1,5 @@
 // Hollow Rectangle 
 
-
 #include<iostream> 
 using namespace std;
 
@@ -35,7 +34,6 @@ int main(){
     cout << endl;
 
     // Logic For Printing "Hollow Rectangle": 
-    
     for(int row=0; row < verticalSide; row++){    
         for(int column=0; column < horizontalSide; column++){
 

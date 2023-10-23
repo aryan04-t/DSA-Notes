@@ -1,6 +1,5 @@
 // Solid Rectangle 
 
-
 #include<iostream> 
 using namespace std;
 
