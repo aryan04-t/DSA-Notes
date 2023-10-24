@@ -19,7 +19,7 @@ int main(){
     cout << endl;
 
     // Logic for printing "Spaced Full Pyramid": 
-    for(int row=0; row<height; row++){
+    for(int row=0; row < height; row++){
         for(int col=0; col < height-row-1; col++){
             cout << " ";
         }
