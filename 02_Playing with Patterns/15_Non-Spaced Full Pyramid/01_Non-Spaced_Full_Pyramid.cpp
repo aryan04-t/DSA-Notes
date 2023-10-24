@@ -1,4 +1,4 @@
-// Solid Full Pyramid 
+// Non-Spaced Full Pyramid
 
 #include<iostream>
 using namespace std;
@@ -6,16 +6,16 @@ using namespace std;
 int main(){
 
     cout << endl;
-    cout << "\"To Print Solid Full Pyramid Pattern\"" << endl;
+    cout << "\"To Print Non-Spaced Full Pyramid Pattern\"" << endl;
     cout << endl; 
 
     int height; 
-    cout << "Enter the height of \"Solid Full Pyramid\": "; 
+    cout << "Enter the height of \"Non-Spaced Full Pyramid\": "; 
     cin >> height; 
 
     cout << endl;
 
-    // Logic for printing "Solid Full Pyramid": 
+    // Logic for printing "Non-Spaced Full Pyramid": 
     for(int row=0; row < height; row++){
         for(int col=0; col < height-row-1; col++){
             cout << " ";
@@ -34,7 +34,7 @@ int main(){
 
 
 /*
-    // My Different Logic for Printing "Solid Full Pyramid": 
+    // My Different Logic for Printing "Non-Spaced Full Pyramid": 
     for(int row=0; row < height; row++){
         for(int col=0; col < height+row; col++){
             if(col < height-row-1){

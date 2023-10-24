@@ -1,4 +1,4 @@
-// Inverted Solid Full Pyramid 
+// Inverted Non-Spaced Full Pyramid
 
 #include<iostream>
 using namespace std;
@@ -6,16 +6,16 @@ using namespace std;
 int main(){
 
     cout << endl; 
-    cout << "\"To Print Inverted Solid Full Pyramid Pattern\"" << endl;
+    cout << "\"To Print Inverted Non-Spaced Full Pyramid Pattern\"" << endl;
     cout << endl; 
 
     int height; 
-    cout << "Enter the height of \"Inverted Solid Full Pyramid\": "; 
+    cout << "Enter the height of \"Inverted Non-Spaced Full Pyramid\": "; 
     cin >> height; 
 
     cout << endl;
 
-    // Logic for printing "Inverted Solid Full Pyramid": 
+    // Logic for printing "Inverted Non-Spaced Full Pyramid": 
     for(int row=0; row < height; row++){
         for(int col=0; col < row; col++){
             cout << " ";
@@ -34,7 +34,7 @@ int main(){
 
 
 /*
-    // My Different Logic for Printing "Inverted Solid Full Pyramid": 
+    // My Different Logic for Printing "Inverted Non-Spaced Full Pyramid": 
     for(int row=0; row < height; row++){
         for(int col=0; col < 2*(height)-row-1; col++){
             if(col < row){
