@@ -15,6 +15,7 @@ int main(){
     cout << "Enter the height of \"Numeric Hollow Full Pyramid\": ";
     cin >> height;
 
+    cout << endl;
 
     // Logic for printing "Numeric Hollow Full Pyramid": 
     for(int row=0; row < height; row++){
