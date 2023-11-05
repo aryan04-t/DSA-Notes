@@ -46,6 +46,7 @@ int main(){
 }
 
 
+
 /*
 
 // Solid Diamond (Type-2) 
@@ -90,6 +91,64 @@ int main(){
             }
             else if(col >= row+1){
                 cout << "* ";
+            }
+        }
+        cout << endl;
+    }
+
+    cout << endl;
+
+    return 0;
+}
+
+*/
+
+
+
+/*
+
+// Solid Diamond (Type-3) 
+
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    cout << endl;
+    cout << "\"To Print Solid Diamond Pattern (Type-3)\"" << endl;
+    cout << endl; 
+
+    int height;
+    cout << "Enter the approximate half height of \"Solid Diamond (Type-3)\": ";
+    cin >> height;
+
+    cout << endl;
+
+    // Logic for printing "Solid Diamond (Type-3)": 
+    for(int row=0; row < height; row++){
+        for(int col=0; col < 2*(height)+1; col++){
+            if(col < height-row){
+                cout << " ";
+            }
+            else if(col >= 2*(height-row)){
+                cout << "*";
+            }
+        }
+        cout << endl;
+    }
+
+    for(int i=0; i < 2*(height)+1; i++){
+        cout << "*";
+    }
+    cout << endl;
+
+    for(int row=0; row < height; row++){
+        for(int col=0; col < 2*(height)+1; col++){
+            if(col < row+1){
+                cout << " ";
+            }
+            else if(col >= 2*(row+1)){
+                cout << "*";
             }
         }
         cout << endl;
