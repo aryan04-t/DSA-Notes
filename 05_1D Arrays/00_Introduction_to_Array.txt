@@ -1,0 +1,88 @@
+# Array: 
+
+---> Array is a data structure in which you can store similar type of data elements. 
+---> And an array is stored in continuous blocks of memory. 
+---> So, an "Array" is a linear data structure, by "Memory Allocation" wise, and also by "Data Accessing" wise.
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+# Why do we need Array: 
+
+* If we need 1000 variables, obviously we don't want to make them by declaring them one by one. 
+* That's is why when we need higher number of variables, it's easier to use a data structure like array which can create n number of storage containers or you can say variables by just single line of code. 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+# There are basically 2 Types of Array: 
+
+(i) Static Array: 
+---> In this type of array, memory is allocated at compile time. 
+---> Static array is allocated in the "stack memory space", and its size cannot be changed once defined. 
+
+(ii) Dynamic Array: 
+---> In this type of array, memory is allocated at run time. 
+---> We can use dynamic array when we want to declare an array by taking input from user at runtime. 
+---> Dynamic array is allocated in the "heap memory space", and its size can be modified later if needed.
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+# Declaring a Static Array: 
+
+* Syntax for declaring a static array: 
+data_type array_name[array_size];
+
+Ex-1: int arr1[10];     // Here we have created an array of named "arr1" of integer data type which has a size of 10. So, it can store 10 int data elements.  
+Ex-2: int a[30]; 
+
+@ Note:
+---> Base address (address of 0th index) of an array is stored in its name. 
+---> Static arrays' have fixed size 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+# Initializing a Static Array: 
+
+Ex-1: int arr[] = {10,20,30,40};                 // Compiler is smart enough, if you don't give size here then also it knows that there are 4 elements in the curly braces so it has to keep the size of array as 4 
+
+Ex-2: int arr[4] = {10,20,30,40};                // But if you still want then you can write the size, there's no problem 
+
+Ex-3: int arr[3] = {10,20,30,40};                // ERROR, because size of the array is 3 and you're initializing it with value of 4 data elements 
+
+Ex-4: int arr[10] = {10,20,30,40};               // This will run smoothly, size of the array is 10, 1st to 4th block of array will get the alloted values which are written in the curly braces respectively, and rest 6 blocks of memory inside the array will be holding value 0. 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+# Array has 0 based indexing. 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+# Why index starts from 0. 
+
+---> base address + index * size of data type 
+---> Base address is stored in array name 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+# References Cited: 
+
+
+* GeeksForGeeks (Difference between Static Arrays and Dynamic Arrays): 
+https://www.geeksforgeeks.org/difference-between-static-arrays-and-dynamic-arrays/
+
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+
