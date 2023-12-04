@@ -22,15 +22,8 @@ public:
     }
 };
 
-int main(){
 
-    int num;
-    cout << "Enter the Number: ";
-    cin >> num;
-    
-    Solution s;
-    int result = s.reverse(num);
-    cout << "Reversed Number: " << result << endl;
+// Time Complexity (T.C.): O(log(n)) to the base 10 
+// -> Here, n is the integer provided in the input and the base is 10 because the integer is getting divided by 10 in each iteration 
 
-    return 0;
-}
+// Space Complexity (S.C.): O(1) -> because the code uses a constant amount of extra space regardless of the input size.

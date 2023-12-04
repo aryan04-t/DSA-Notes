@@ -5,7 +5,6 @@
 #include<iostream>
 using namespace std;
 
-
 // Loop Approach 
 class Solution{
 public:
@@ -32,19 +31,9 @@ public:
 
 */
 
-int main(){
 
-    int num;
-    cout << "Enter the Number: ";
-    cin >> num;
-    
-    int kthBit;
-    cout << "Enter the Bit: ";
-    cin >> kthBit;
+// T.C.: O(log(n)) to the base 2 -> A number "n" can be represted by using "log(n) to the base 2" number of bits in binary, and in worst case to set the left most bit the loop will iterate "log(n) to the base 2" times 
 
-    Solution s;
-    int result = s.setKthBit(num, kthBit);
-    cout << "Number after setting the Kth Bit: " << result << endl;
+// S.C.: O(1) -> Constant Space 
 
-    return 0;
-}
+// Here, n is the input number named "N" 
