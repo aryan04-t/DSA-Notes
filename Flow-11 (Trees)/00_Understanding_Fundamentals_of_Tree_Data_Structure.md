@@ -49,10 +49,10 @@
 
 ## Traversal of Tree:
 
-  (i) **BFS (Breadth First Traversal):** 
+  (i) **BFS (Breadth First Search):** 
   - Level Order Traversal 
 
- (ii) **DFS (Depth First Traversal):** 
+ (ii) **DFS (Depth First Search):** 
   - Inorder, Preorder, and Postorder Traversal 
 
 (iii) **Morris Traversal** 
