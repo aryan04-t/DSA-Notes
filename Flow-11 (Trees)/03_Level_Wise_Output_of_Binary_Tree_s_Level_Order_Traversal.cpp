@@ -6,13 +6,16 @@ using namespace std;
 class TreeNode{
 
     private: 
+        
         int data; 
         TreeNode* left; 
         TreeNode* right; 
 
     public: 
+        
         TreeNode() : data(-1), left(nullptr), right(nullptr) {} 
         TreeNode(int _data) : data(_data), left(nullptr), right(nullptr) {} 
+
         TreeNode* buildTree(); 
         void levelOrderTraversal(TreeNode* root); 
         void levelWiseOutputOfBinaryTreeSLevelOrderTraversal(TreeNode* root);

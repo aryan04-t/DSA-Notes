@@ -15,9 +15,11 @@ class TreeNode{
         
         TreeNode() : data(-1), left(nullptr), right(nullptr) {} 
         TreeNode(int _data) : data(_data), left(nullptr), right(nullptr) {} 
-        
+
         TreeNode* buildTree(); 
         void levelOrderTraversal(TreeNode* root); 
+        void levelWiseOutputOfBinaryTreeSLevelOrderTraversal(TreeNode* root);
+        void inorderTraversal(TreeNode* root);
 
 };
 
@@ -69,13 +71,67 @@ void TreeNode::levelOrderTraversal(TreeNode* root){
 }
 
 
+void TreeNode::levelWiseOutputOfBinaryTreeSLevelOrderTraversal(TreeNode* root){
+
+    queue<TreeNode*> q;
+
+    q.push(root); 
+    q.push(nullptr); 
+
+    while(!q.empty()){
+
+        TreeNode* temp = q.front(); 
+
+        if(temp == nullptr){
+            
+            cout << endl;
+            q.pop();
+            
+            if(!q.empty()){
+                q.push(nullptr);
+            }
+
+            continue;
+        
+        }
+
+        q.pop();
+
+        if(temp->left != nullptr){
+            q.push(temp->left); 
+        }
+
+        if(temp->right != nullptr){
+            q.push(temp->right); 
+        }
+
+        cout << temp->data << " ";
+
+    } 
+
+}
+
+
+void TreeNode::inorderTraversal(TreeNode* root){
+
+    if(root == nullptr){
+        return;
+    }
+
+    inorderTraversal(root->left);
+    cout << root->data << " ";
+    inorderTraversal(root->right);
+
+}
+
+
 int main(){
 
 
     TreeNode obj; 
     TreeNode* root = obj.buildTree(); 
 
-    obj.levelOrderTraversal(root); 
+    obj.inorderTraversal(root);
 
 
     return 0;
