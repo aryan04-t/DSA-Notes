@@ -17,6 +17,7 @@ class TreeNode{
         TreeNode(int _data) : data(_data), left(nullptr), right(nullptr) {} 
 
         TreeNode* buildTree(); 
+        
         void levelOrderTraversal(TreeNode* root); 
         void levelWiseOutputOfBinaryTreeSLevelOrderTraversal(TreeNode* root);
 

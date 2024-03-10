@@ -1,5 +1,6 @@
 #include<iostream>
 #include<queue>
+#include<algorithm> 
 using namespace std;
 
 
@@ -20,9 +21,13 @@ class TreeNode{
         
         void levelOrderTraversal(TreeNode* root); 
         void levelWiseOutputOfBinaryTreeSLevelOrderTraversal(TreeNode* root);
-
+        
         void inorderTraversal(TreeNode* root);
         void preorderTraversal(TreeNode* root);
+        void postorderTraversal(TreeNode* root); 
+
+        int getHeight(TreeNode* root);
+        // Maximum "height" or "depth", can be "total number of edges" or "total number of nodes" till the furthest leaf node of a tree. 
 
 };
 
@@ -141,13 +146,40 @@ void TreeNode::preorderTraversal(TreeNode* root){
 }
 
 
+void TreeNode::postorderTraversal(TreeNode* root){
+
+    if(root == nullptr){
+        return; 
+    }
+
+    postorderTraversal(root->left);
+    postorderTraversal(root->right);
+    cout << root->data << " ";
+
+}
+
+
+int TreeNode::getHeight(TreeNode* root){
+
+    if(root == nullptr){
+        return 0;
+    }
+
+    int leftHeight = getHeight(root->left);
+    int rightHeight = getHeight(root->right);
+
+    return max(leftHeight, rightHeight) + 1; 
+
+}
+
+
 int main(){
 
 
     TreeNode obj; 
     TreeNode* root = obj.buildTree(); 
 
-    obj.preorderTraversal(root); 
+    cout << "This Binary Tree's Height is: " << obj.getHeight(root) << endl; 
 
 
     return 0;
