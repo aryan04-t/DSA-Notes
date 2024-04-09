@@ -2,7 +2,7 @@
 
 - Heap is a data structure which is always a "complete binary tree", and it holds a "heap property" 
 
-- So, heap is basically a special type of tree, just like "Binary Search Trees" were special types of trees which hold a "Binary Search Property" like: every node smaller than the current node goes to the left of current node and every node greater than the current node goes to its right, just like that heaps also have a unique heap property and we will look into it ahead 
+- So, heap is basically a special type of tree, just like "Binary Search Trees", BSTs were special types of trees which held a "Binary Search Property": every node smaller than the current node goes to the left of current node and every node greater than the current node goes to its right, just like that heaps also have a unique heap property and we will look into it ahead 
 
 
 
@@ -12,21 +12,22 @@
 - And all the levels are filled only left to right 
 
 > ### Note: 
-> 1. Full binary tree in which all the nodes have either 0 or 2 child 
+> 1. Full binary tree is a tree in which all the nodes have either 0 or 2 child 
 > 2. Perfect binary tree is a binary tree where all the levels are filled completely, means every node has 2 child except the leave nodes, and all the leave nodes should exist in the last level  
 
 
 
-# The 2 Heap Properties are: 
+# There are 2 Types of Unique Heap Properties, and Based on these properties we have 2 Types of Heaps: 
 
-1. Max Heap 
-    - In max heap every node has a value which is always larger than all the values which are present below it 
+1. Max Heap: 
+    - Max Heap Property: In a max heap every node has a value which is always larger than all the values which are present below it
 
-2. Min Heap 
-    - In min heap all the values which are present below the current are smaller than the value of current node 
+2. Min Heap: 
+    - Min Heap Property: In a min heap every node has a value which is always smaller then all the values which are present below it 
 
 > ### Note:  
-> In heap there is no relation between left and right child of the node, the left child should be smaller than parent in Max heap and right child should also be smaller than the parent in Max Heap, that's it, left child can be greater than right, right can be greater than left, it doesn't matter. 
+> In heap there is no relation between left and right child of the node. 
+> In max heap the only property that should be satisfied is that current node should always have the value which is larger than all the values which are present below it, the equal values can also exist cases can also be handled to exist in the min or max heap, that's it, left child can be greater than right, right can be greater than left, it doesn't matter. 
 
 
 
@@ -41,7 +42,7 @@
 # Indexing Formulas to Access Child or Parent of a Node: 
 
 1. While representing a tree in the form of array, when you're starting to store root from 0th index: 
-    - Index of left child = 2*i + 1
+    - Index of left child = 2*i + 1 
     - Index of right child = 2*i + 2 
     - Index of any child's parent node = (i-1)/2 
 
