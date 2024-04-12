@@ -37,7 +37,7 @@ void MaxHeap::visulaizeHeap(){
         int levelSize = pow(2, level); 
 
         for(int j=0; i < n && j < levelSize; i++, j++){
-            cout << maxHeap[i] << " ";
+            cout << maxHeap[i] << " "; 
         }
 
         cout << endl;
@@ -112,16 +112,21 @@ void MaxHeap::deleteMax(){
 
     while(2*i < n || 2*i+1 < n){
 
-        int leftChildIndex = 2*i;
-        int rightChildIndex = 2*i + 1;
+        int leftChild = 2*i; 
+        int rightChild = 2*i + 1; 
 
-        if(leftChildIndex < n && maxHeap[leftChildIndex] > maxHeap[i]){
-            swap(maxHeap[leftChildIndex], maxHeap[i]); 
-            i = leftChildIndex; 
+        int largest = i; 
+
+        if(leftChild < n && maxHeap[leftChild] > maxHeap[i]){
+            largest = leftChild; 
         }
-        else if(rightChildIndex < n && maxHeap[rightChildIndex] > maxHeap[i]){
-            swap(maxHeap[rightChildIndex], maxHeap[i]); 
-            i = rightChildIndex; 
+        if(rightChild < n && maxHeap[rightChild] > maxHeap[largest]){
+            largest = rightChild; 
+        }
+
+        if(largest != i){
+            swap(maxHeap[largest], maxHeap[i]); 
+            i = largest; 
         }
         else{
             break; 
